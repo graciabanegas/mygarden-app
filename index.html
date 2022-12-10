@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Framework7 App</title>
+<title>My Garden App</title>
 <link href="css/framework7.bundle.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -11,8 +11,6 @@
 
 </head>
 <body>
-
-
 	<div id="app">
 		<div class="view view-main view-init">
 			
@@ -52,7 +50,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="#" class="item-content item-link panel-close">
+								<a href="/cart/" class="item-content item-link panel-close">
 									<div class="item-media">
 										<i class="material-icons">shopping_cart</i>
 									</div>
@@ -62,37 +60,17 @@
 								</a>
 							</li>
 							<li>
-								<a href="/brands/" class="item-content item-link panel-close">
+								<a href="/favorites/" class="item-content item-link panel-close">
 									<div class="item-media">
-										<i class="material-icons">location_on</i>
+										<i class="material-icons">favorite</i>
 									</div>
 									<div class="item-inner">
-										<span class="item-title">Delivery Address</span>
+										<span class="item-title">Favorites</span>
 									</div>
 								</a>
 							</li>
 							<li>
-								<a href="#" class="item-content item-link panel-close">
-									<div class="item-media">
-										<i class="material-icons">credit_card</i>
-									</div>
-									<div class="item-inner">
-										<span class="item-title">Payment Method</span>
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="#" class="item-content item-link panel-close">
-									<div class="item-media">
-										<i class="material-icons">notifications</i>
-									</div>
-									<div class="item-inner">
-										<span class="item-title">Notifications</span>
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="#" class="item-content item-link panel-close">
+								<a href="/settings/" class="item-content item-link panel-close">
 									<div class="item-media">
 										<i class="material-icons">settings</i>
 									</div>
@@ -102,7 +80,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="#" class="item-content item-link panel-close">
+								<a href="/about/" class="item-content item-link panel-close">
 									<div class="item-media">
 										<i class="material-icons">help</i>
 									</div>
@@ -132,18 +110,6 @@
 			  <section class="page-content">
 				  
 				<div class="home-banner">
-					<div class="subnavbar">
-						<form class="searchbar searchbar-init" data-searchbar-container=".list" data-search-in=".card-content">
-						  <div class="searchbar-inner">
-							<div class="searchbar-input-wrap">
-							  <input type="search" placeholder="Search Plant">
-							  <i class="searchbar-icon"></i>
-							  <span class="input-clear-button"></span>
-							</div>
-							<span class="searchbar-disable-button if-not-aurora">Cancel</span>
-						  </div>
-						</form>
-					  </div>
 				  
 			<div class="toolbar toolbar-home">
 			  <div class="toolbar-inner">
@@ -151,9 +117,9 @@
 					Recommended</a>
 				 <a href="/top/" class="link">
 					Top</a> 
-				 <a href="#" class="link">
+				 <a href="/indoor/" class="link">
 					Indoor</a>
-				  <a href="#" class="link">
+				  <a href="/outdoot/" class="link">
 					Outdoor</a>
 			  </div>
 			</div>
@@ -179,7 +145,7 @@
 								<div class="card-content card-product">
 									<div class="row">
 										<article class="col-55">
-											<img src="img/plant_1.png" class="img-fluid" alt="">
+											<a href="/info-product/"><img src="img/plant_1.png" class="img-fluid" alt=""></a>
 										</article>
 										<article class="col-35">
 											<div class="card-text">
@@ -197,7 +163,7 @@
 								<div class="card-content">
 									<div class="row">
 										<article class="col-55">
-											<img src="img/patterned-plant-pots-with-cereus-cactus.png" class="img-fluid" alt="">
+											<a href="/info-product -2/"><img src="img/patterned-plant-pots-with-cereus-cactus.png" class="img-fluid" alt=""></a>
 										</article>
 										<article class="col-35">
 											<div class="card-text">
@@ -218,7 +184,7 @@
 						<article class="col-70">
 							 <h2 class="block-title block-title-best"> Best Sellers</h2>
 						</article>
-						<article class="col-30 text-align-right">
+						<article class="col-30 text-align-right margin-2">
 							 <a href="/products/" class="block-title"> See more </a>
 						</article>	
 				  </div>
@@ -231,7 +197,7 @@
 								<div class="card-content card-product">
 									<div class="row">
 										<article class="col-45">
-											<img src="img/golden-pothos-or-epipremnum-aureum-on-white-table-in-the-living-room-home-and-garden.jpg" class="img-fluid img-marg" alt="">
+											<a href="/info-product/"><img src="img/golden-pothos-or-epipremnum-aureum-on-white-table-in-the-living-room-home-and-garden.jpg" class="img-fluid img-marg" alt=""></a>
 										</article>
 										<article class="col-55">
 											<div class="card-text-small">
@@ -346,13 +312,118 @@
 					<i class="material-icons">home</i></a>
 				  <a href="/brands/" class="link">
 					<i class="material-icons">shopping_bag</i></a>
-				<a href="#panel-left" class="link">
+				<a href="/cart/" class="link">
 					<i class="material-icons">shopping_cart</i></a>
-				  <a href="#" class="link">
+				  <a href="/favorites/" class="link">
 					<i class="material-icons">favorite</i></a>
 			  </div>
 			</div>
 		</div>
+		
+		<section class="login-screen modal-in" id="login">
+			  <!-- Default view-page layout -->
+			  <div class="view">
+				<div class="page login-screen-page">
+				  <!-- page-content has additional login-screen content -->
+				<img src="img/login.png"  class="img-fluid" alt="">	
+				  <div class="page-content login-screen-content">
+					<img src="img/leaves.png" class="img-fluid position-left" width="18%" alt="">  
+					<div class="login-screen-title">Welcome back!</div>
+					 <h3 class="text-align-center margin-text">Log in to your account</h3> 
+					<!-- Login form -->
+					<form id="form-login">
+					  <div class="list block">
+						<ul>
+						  <li class="item-content item-input">
+							<div class="item-inner">
+							  <div class="item-input-wrap">
+								<input type="email" name="username" placeholder="E-mail" required validate>
+								<span class="input-clear-button"></span>
+							  </div>
+							</div>
+						  </li>
+						  <li class="item-content item-input">
+							<div class="item-inner">
+							  <div class="item-input-wrap">
+								<input type="password" name="password" placeholder="Password" required validate>
+								<span class="input-clear-button"></span>
+							  </div>
+							</div>
+						  </li>
+						</ul>
+					  </div>
+					  <div class="list block">
+						<ul>
+						  <li>
+							<a href="#" class="button button-fill" id="btnLogin">Login</a>
+							<p class="small">Don’t have an account? <a href="#" class="link popup-open text-bold" data-popup="#popup-signup">Sign up</a></p>  
+						  </li>
+						</ul>
+					  </div>
+					</form>
+				  </div>
+				</div>
+			  </div>
+		</section>
+		
+		
+		<section class="popup" id="popup-signup">
+	
+	
+		<div class="block">
+			<img src="img/leaves.png" class="img-fluid position-left" width="18%" alt="">  
+			<h2 class="block-title-large text-align-center">Register</h2>
+			<form id="form-register">
+					  <div class="list block">
+						<ul>
+						<li class="item-content item-input">
+							<div class="item-inner">
+							  <div class="item-input-wrap">
+								<input type="text" name="name" placeholder="Full Name" required validate>
+								<span class="input-clear-button"></span>
+							  </div>
+							</div>
+						  </li>  
+						<li class="item-content item-input">
+							<div class="item-inner">
+							  <div class="item-input-wrap">
+								<input type="email" name="username" placeholder="E-mail" required validate>
+								<span class="input-clear-button"></span>
+							  </div>
+							</div>
+						  </li>
+						  <li class="item-content item-input">
+							<div class="item-inner">
+							  <div class="item-input-wrap">
+								<input type="password" name="password" placeholder="Password" required validate>
+								<span class="input-clear-button"></span>
+							  </div>
+							</div>
+						  </li>
+						<li class="item-content item-input">
+							<div class="item-inner">
+							  <div class="item-input-wrap">
+								<input type="password" name="password" placeholder="Confirm Password" required validate>
+								<span class="input-clear-button"></span>
+							  </div>
+							</div>
+						  </li>	
+						</ul>
+					  </div>
+					  <div class="list block">
+						<ul>
+						  <li>
+							<a href="#" class="button button-fill" id="btnLogin">Sign Up</a>  
+						  </li>
+						</ul>
+					  </div>
+					</form>
+			<a href="#" class="button  popup-close">Cancel</a>
+		</div>
+		
+	
+	</section>
+		
 	</div>
 	
 	
